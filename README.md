@@ -21,6 +21,11 @@ This project describes the development and implementation of an automatic cat fe
 - _Serial Connection:_ The activation signal for the feeder is sent from the computer to the Arduino via a serial connection. The specific message activates the mechanism that controls the servomotor.
 - _Raspberry Pi and Artificial Vision:_ A Raspberry Pi Zero 2W, connected to a webcam, captures images of the environment every second. These images are transmitted to the computer via SSH protocol, where they are processed for cat detection. The most recent images are displayed on the web application and continuously updated. When the program is closed, all captured images are deleted to conserve storage space.
 
+## App Interface
+
+![Aspect of the Flask Application](img/app.jpeg)
+
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -69,20 +74,13 @@ This repository includes the following models:
 - ssd_mobilenet_v2.tflite (Apache 2.0 License)
 
 The mobilenet_v2.caffemodel must be downloaded and placed in the src/ directory.
-## Functionality Demo
 
-![Functioning of the System](img/feeder.gif)
-
-## App Interface
-
-![Aspect of the Flask Application](img/app.jpeg)
 
 ## Authors
 
 - **Juan Manuel Alvarado** - *Initial work* - [Juan-Alvarado21](https://github.com/Juan-Alvarado21)
 - **Alexander Iain Crombie* - *Contributor* - [titosuperb](https://github.com/titosuperb).
 - **Gabriel Alexis Luna* - *Contributor* - [hakoluna](https://github.com/titosuperb). 
-
 
 
 ## Contributions
@@ -112,6 +110,11 @@ El sistema de alimentador automático desarrollado en este proyecto se basa en l
 Detalles Técnicos
 
     Conexión Serial: La señal de activación del alimentador se envía desde la computadora al Arduino mediante una conexión serial. El mensaje específico activa el mecanismo que controla el servomotor.
+
+## Functionality Demo
+
+![Functioning of the System](img/feeder.gif)
+    
     Raspberry Pi y Visión Artificial: Una Raspberry Pi Zero 2W, conectada a una cámara web, captura imágenes del entorno cada segundo. Estas imágenes se transmiten a la computadora mediante el protocolo SSH, donde son procesadas para la detección del gato. Las imágenes más recientes se muestran en la aplicación web y se actualizan continuamente. Al cerrar el programa, todas las imágenes capturadas se eliminan para conservar el espacio de almacenamiento.
 
 Este sistema combina tecnologías de visión artificial, comunicación serial y control de servomotores para proporcionar una solución efectiva y moderna a la alimentación automática de mascotas.
