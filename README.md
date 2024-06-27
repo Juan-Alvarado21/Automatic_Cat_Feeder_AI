@@ -68,7 +68,14 @@ This repository includes the following models:
 - model.tflite
 - ssd_mobilenet_v2.tflite (Apache 2.0 License)
 
-The mobilenet_v2.caffemodel must be downloaded and placed in the src/ directory. This model is licensed under the BSD-3-Clause License.
+The mobilenet_v2.caffemodel must be downloaded and placed in the src/ directory.
+## Functionality Demo
+
+![Functioning of the System](img/feeder.gif)
+
+## App Interface
+
+![Aspect of the Flask Application](img/app.jpeg)
 
 ## Authors
 
