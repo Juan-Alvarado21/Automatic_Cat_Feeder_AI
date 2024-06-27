@@ -74,7 +74,7 @@ The mobilenet_v2.caffemodel must be downloaded and placed in the src/ directory.
 
 - **Juan Manuel Alvarado** - *Initial work* - [Juan-Alvarado21](https://github.com/Juan-Alvarado21)
 - **Alexander Iain Crombie* - *Contributor* - [titosuperb](https://github.com/titosuperb).
-- **Gabriel Alexis Luna* - *Contributor* - [titosuperb](https://github.com/titosuperb)
+- **Gabriel Alexis Luna* - *Contributor* - [hakoluna](https://github.com/titosuperb)
 
 
 
