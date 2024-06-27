@@ -61,10 +61,11 @@ bash
 4. Download and place the mobilenet_v2.caffemodel in the models/ directory.
 
 ### Execution
-
-1. Run the main script:
-   bash
+1. Run the main.py and det.py script simultaneous :
+   
+bash
    python src/main.py
+   python src/detector.py
 
 ## Models
 
