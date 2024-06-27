@@ -36,6 +36,23 @@ This project describes the development and implementation of an automatic cat fe
 3. Configure SSH connection:
    Edit the .ssh_config file with the IP address of your Raspberry Pi and other necessary configurations.
 
+4. Connect to the internet and enable SSH on your Raspberry Pi.
+
+Modify the swap size:
+
+bash
+
+sudo nano /etc/dphys-swapfile
+sudo dphys-swapfile setup
+sudo dphys-swapfile swapon
+
+Update the system and install additional dependencies:
+
+bash
+
+    sudo apt update
+    sudo apt install fswebcam python3-pip libatlas-base-dev
+
 4. Download and place the mobilenet_v2.caffemodel in the models/ directory.
 
 ### Execution
@@ -64,9 +81,6 @@ Contributions are welcome. Please open an issue or a pull request to discuss the
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Short Description
-
-Título: Implementación de un Alimentador Automático Basado en Visión Artificial para Gatos Utilizando Raspberry Pi y Arduino
-Resumen del Proyecto
 
 Este proyecto describe el desarrollo y la implementación de un alimentador automático para gatos, basado en un sistema de visión artificial. El sistema se acciona de dos maneras: de forma automática y manual, y está diseñado para mejorar la alimentación de mascotas mediante el uso de tecnologías modernas como la Raspberry Pi y Arduino.
 Nombre del Paper: "Automatic Cat Feeder System Using Artificial Vision with Raspberry Pi and Arduino"
