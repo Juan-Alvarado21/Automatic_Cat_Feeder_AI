@@ -1,0 +1,7 @@
+flask
+paramiko
+scp
+opencv-python
+numpy
+tensorflow
+pyjwt
