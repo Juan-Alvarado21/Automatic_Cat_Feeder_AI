@@ -27,7 +27,7 @@ This project describes the development and implementation of an automatic cat fe
 
 1. Clone this repository:
    bash
-   git clone https://github.com/your_username/Automatic_Cat_Feeder_AI.git
+   git clone https://github.com/Juan-Alvarado21/Automatic_Cat_Feeder_AI.git
    cd Automatic_Cat_Feeder_AI
 2. Install the required dependencies:
    bash
@@ -68,9 +68,15 @@ This repository includes the following models:
 - model.tflite
 - ssd_mobilenet_v2.tflite (Apache 2.0 License)
 
-The mobilenet_v2.caffemodel must be downloaded and placed in the models/ directory. This model is licensed under the BSD-3-Clause License.
+The mobilenet_v2.caffemodel must be downloaded and placed in the src/ directory. This model is licensed under the BSD-3-Clause License.
 
-Ensure to review the licenses and usage terms for these models.
+## Authors
+
+- **Juan Manuel Alvarado** - *Initial work* - [Juan-Alvarado21](https://github.com/Juan-Alvarado21)
+- **Alexander Iain Crombie* - *Contributor* - [titosuperb](https://github.com/titosuperb).
+- **Gabriel Alexis Luna* - *Contributor* - [titosuperb](https://github.com/titosuperb)
+
+
 
 ## Contributions
 
